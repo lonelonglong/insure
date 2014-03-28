@@ -9,6 +9,5 @@ $sys_request_type = isset ( $_SERVER ['REQUEST_METHOD'] ) ? $_SERVER ['REQUEST_M
 require_once (INSURE_CMN . '/check.php');
 require_once (INSURE_CMN . '/xml.php');
 require_once (INSURE_CMN . '/http.php');
-require_once (INSURE_CMN . '/common.php');
 
 ?>
