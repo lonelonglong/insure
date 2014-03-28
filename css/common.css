@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+body {
+    font-family: "", sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0 0 0 0;
+    color: #000;
+    background: #E9F1F4;
+    text-shadow: 0px 0px 1px transparent;
+}
+
+content {
+    max-width: 1200px;
+    padding: 20px 20px 10px 20px;
+    background-color: #E9F1F4;
+    margin: 0 auto;
+}
+
+.detail {
+    color: #FFAA00;
+    height: 140px;
+}
+
+.left {
+    width: 300px;
+}
+
+.right {
+    width: 100px;
+}
