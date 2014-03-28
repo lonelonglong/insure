@@ -1,32 +1,40 @@
 <?php
 require_once ('/config.php');
 ?>
+<!DOCTYPE HTML>
 <html>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <head>
-<title>保险网站</title>
+<?php
+require_once ('/head.php');
+?>
+<title>保险项目列表</title>
 </head>
 <body>
-	<form method="post" name="form"
-		action="/list.php">
-		<table>
-			<tbody>
-				<tr>
-					<td>新一站境内旅游保险C款（经济型） </td>
-					<td><a href="./detail.php" >查看详细</a></td>
-				</tr>
-				<tr>
-					<td>新一站“众享蜜月”境外旅游计划 </td>
-				</tr>
-				<tr>
-					<td></td>
-				</tr>
-				<tr>
-					<td></td>
-				</tr>
-			</tbody>
-		</table>
-
-	</form>
+    <div class="content">
+        <h1></h1>
+        <div>
+            <ul>
+                <li class="detail">
+                    <div class="left">新一站境内旅游保险C款（经济型）</div>
+                    <div>承保年龄： 0周岁-80周岁 保障期限： 1-30天</div>
+                    <div class="right">
+                        <a href="./detail.php?selectIdx=0001">查看详细</a>
+                    </div>
+                </li>
+                <li class="detail">
+                    <div class="left">新一站“众享蜜月”境外旅游计划</div>
+                    <div class="right">
+                        <a href="./detail.php?selectIdx=0002">查看详细</a>
+                    </div>
+                </li>
+                <li class="detail">
+                    <div class="left">新一站“自驾游”保障精英计划</div>
+                    <div class="right">
+                        <a href="./detail.php?selectIdx=0003">查看详细</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
