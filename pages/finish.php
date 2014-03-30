@@ -17,7 +17,7 @@ require_once ('/head.php');
                     <td><label>申请成功！！！</label></td>
                 </tr>
                 <tr>
-                    <td><input type="button" value="返回填写页面" onclick="javascript:location.href='./input.php?jumpFrom=3';" /></td>
+                    <td><input type="button" value="返回列表" onclick="javascript:location.href='./list.php';" /></td>
                 </tr>
             </table>
         </form>
