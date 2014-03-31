@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+.plan {
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    background-color: #D6D5C7;
+}
+
+.finish table.table_finish {
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    width: 100%
+}
+
+.finish table.table_finish td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    text-align: center;
+}
+
+.commit {
+    height: 50px;
+}
+
+.commit li {
+    font-size: 15px;
+    text-align: center;
+}

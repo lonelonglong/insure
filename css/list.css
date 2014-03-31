@@ -1,0 +1,103 @@
+@CHARSET "UTF-8";
+
+#list {
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+
+.each {
+    height: 280px;
+    position: relative;
+    left: -30px;
+    top: 5px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FF0000;
+}
+
+#list .title {
+    height: 50px;
+    background-color: #BBDEE1;
+    top: 20px;
+}
+
+#list .title .headline {
+    height: 30px;
+    position: relative;
+    left: -30px;
+    top: 10px;
+    font-size: 15px;
+}
+
+#list .title .other {
+    position: relative;
+    left: -20px;
+    top: 0px;
+    height: 15px;
+}
+
+#list .detail {
+    position: relative;
+    left: 0px;
+    top: 10px;
+    background-color: #D6D5C7;
+}
+
+#list .detail .img {
+    width: 140px;
+    height: 100px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+#list .detail .left {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#list .detail .middle {
+    width: 400px;
+    height: 50px;
+    position: relative;
+    left: 220px;
+    top: -50px;
+}
+
+#list .detail .middle .col_detail {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    font-size: 11px;
+    width: 150px;
+    height: 13px;
+    margin-top: 2px;
+}
+
+#list .detail .right {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 820px;
+    top: -75px;
+    font-size: 20px;
+}
+
+#list .supplement {
+    position: relative;
+    left: 0px;
+    top: 20px;
+    height: 50px;
+    background-color: #C7D6CB;
+}
+
+#list .supplement .note {
+    position: relative;
+    left: -30px;
+    top: 5px;
+    height: 20px;
+}

@@ -3,29 +3,29 @@
 body {
     font-family: "", sans-serif;
     font-size: 12px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0 0 0 0;
     color: #000;
     background: #E9F1F4;
     text-shadow: 0px 0px 1px transparent;
+    max-width: 1024px;
 }
 
 content {
-    max-width: 1200px;
+    max-width: 1024px;
     padding: 20px 20px 10px 20px;
     background-color: #E9F1F4;
     margin: 0 auto;
 }
 
-.detail {
-    color: #FFAA00;
-    height: 140px;
+.h1 {
+    height: 30px;
+    background-color: #E8BFB5;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
-.left {
-    width: 300px;
-}
-
-.right {
-    width: 100px;
+.multicolumn li {
+    list-style: none;
 }

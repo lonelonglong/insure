@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+
+.basic {
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    background-color: #D6D5C7;
+}
+
+h1.title {
+    height: 30px;
+    background-color: #BBDEE1;
+    font-size: 15px;
+}
+
+.basic .left {
+    width: 300px;
+    position: relative;
+    left: 0px;
+    top: 10px;
+    background-color: #D6D5C7;
+}
+
+.basic .left .img {
+    width: 140px;
+    height: 100px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.basic .right {
+    width: 400px;
+    position: relative;
+    left: 400px;
+    top: -100px;
+    background-color: #D6D5C7;
+}
+
+.more {
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+
+.more table.table_more {
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    width: 100%
+}
+
+.more table.table_more th {
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    width: 200px;
+}
+
+.more table.table_more td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+
+.commit {
+    height: 50px;
+}
+
+.commit li.left {
+    position: relative;
+    left: 150px;
+    top: 10px;
+    font-size: 15px;
+}
+
+.commit li.right {
+    position: relative;
+    left: 250px;
+    top: -10px;
+    font-size: 15px;
+}
+
+.notice {
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+
+.notice .li {
+    position: relative;
+    left: -30px;
+    top: 5px;
+}
