@@ -86,7 +86,7 @@ require_once ('/head.php');
       </div>
       <div class="commit">
         <ul class="multicolumn">
-          <li class="left"><input type="button" value="返回前页面" onclick="javascript:location.href='./detail.php';" /></li>
+          <li class="left"><input type="button" value="返回前页面a" onclick="javascript:location.href='./detail.php';" /></li>
           <li class="middle"><input type="button" value="确认" onclick="submitAction('form', './input.php')" /></li>
           <li class="right"><input type="reset" value="重新填写" /></li>
         </ul>
